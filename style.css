@@ -1,0 +1,134 @@
+.saira-fonter {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    background-color: rgb(23, 22, 27);
+    background-image:url(resources/eberhard-grossgasteiger-pBgnT4KH8d4-unsplash.jpg);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-family: "saira";
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 67px;
+    padding: 0 8px;
+
+}
+.brand {
+    display:flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: "saira";
+    display: flex;
+    width:70%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 12px;
+    padding-left: 40px;
+    background-image: url(resources/bgi.png);
+}
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    color:rgb(157, 142, 170);
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.icons{
+    margin-bottom: 8px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width:60vw;
+    text-align: center;
+    cursor:pointer;
+}
+
+.songItem{
+    height: 63px;
+    display: flex;
+    
+    color: rgb(201, 193, 206);
+    margin: 15px 5px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 20px; 
+    border-radius: 34px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+.gif {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.gif:nth-child(1) {
+    left: 38vw;
+    bottom: 1%;
+}
+
+.gif:nth-child(2) {
+    right: 38vw;
+    bottom: 1%;
+}
+
+.songInfo {
+   align-items: center;
+   margin-bottom: 3px;
+   font-family: "saira";
+
+}
